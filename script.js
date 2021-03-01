@@ -1,0 +1,1 @@
+ var requestUrl = 'https://openweathermap.org/api'

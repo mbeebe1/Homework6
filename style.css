@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+header { background-color: black;
+color: white;
+font-size: 50px;
+text-align: center;
+padding: 50px;
+font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    height: 70px;
+    border: 1px solid lightgray;
+    text-align: center;
+    
+}
+ul {
+    margin-top: 20px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+            />
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+            rel="stylesheet"
+            />
+        <link rel="stylesheet" href="style.css" />
+        <title>Weather Dashboard</title>
+    </head>
+
+    <body>
+        <header>Weather Dashboard</header>
+
+        <h2>Search for a City:</h2>
+        <div class="topnav col-md-6">
+            <input type="text" placeholder="Search">
+            <button><i class="fas fa-search-location"></i></button>
+
+            
+            <ul class="Popularcities col-md-6">
+                <li>Austin</li>
+                <li>Chicago</li>
+                <li>New York</li>
+                <li>Orlando</li>
+                <li>San Francisco</li>
+                <li>Seattle</li>
+                <li>Denver</li>
+                <li>Atlanta</li>
+            </ul>
+        </div>
+
+        <div class="currentweather col-md-6"></div>
+        <div class="oneday" id="1"></div>
+        <div class="twoday" id="2"></div>
+        <div class="threeday" id="3"></div>
+        <div class="fourday" id="4"></div>
+        <div class="fiveday" id="5"></div>
+
+
+
+
+
+
+
+
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="script.js"></script>
+
+
+
+    </body>
+
+</html>
