@@ -2,21 +2,39 @@
     box-sizing: border-box;
 }
 
-header { background-color: black;
-color: white;
-font-size: 50px;
-text-align: center;
-padding: 50px;
-font-weight: bold;
+header {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
 }
 
-li {
-    list-style-type: none;
-    height: 70px;
-    border: 1px solid lightgray;
+button {
+    height:70px;
+    background-color: transparent;
     text-align: center;
-    
 }
+
 ul {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.currentweather {
+    border: solid 1px lightgray;
+    float: right;
+    height: 400px;
+}
+#nav {
+    background-color: rgb(84, 193, 243);
+    height:30px;
+    border-radius: 10px;
+}
+.Austin{
     margin-top: 20px;
 }
