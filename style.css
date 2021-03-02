@@ -15,26 +15,57 @@ button {
     height:70px;
     background-color: transparent;
     text-align: center;
+    border-radius: 5px;
+    border: groove;
 }
 
-ul {
-    margin-top: 20px;
-}
+
 
 h2 {
     margin-left: 10px;
 }
 
 .currentweather {
-    border: solid 1px lightgray;
+    border:solid 1px lightgray;
     float: right;
     height: 400px;
 }
 #nav {
     background-color: rgb(84, 193, 243);
     height:30px;
-    border-radius: 10px;
+    border-radius:5px;
 }
 .Austin{
     margin-top: 20px;
+}
+.oneday {
+    border:solid 1px gray;
+    
+    height:50px;
+}
+.twoday {
+    border:solid 1px gray;
+    
+    height: 50px;
+}
+.future {
+    float:right;
+    
+}
+h3 { margin-top: 400px;
+font-size: 40px;}
+.threeday {
+    border:solid 1px gray;
+    
+    height: 50px;
+}
+.fourday {
+    border:solid 1px gray;
+    
+    height: 50px;
+}
+.fiveday {
+    border:solid 1px gray;
+    
+    height: 50px;
 }
