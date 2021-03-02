@@ -12,60 +12,84 @@ header {
 }
 
 button {
-    height:70px;
+    height: 70px;
     background-color: transparent;
     text-align: center;
     border-radius: 5px;
     border: groove;
 }
 
-
-
 h2 {
     margin-left: 10px;
 }
 
 .currentweather {
-    border:solid 1px lightgray;
+    border: solid 1px lightgray;
     float: right;
     height: 400px;
+    border-radius: 10px;
 }
+
 #nav {
     background-color: rgb(84, 193, 243);
-    height:30px;
-    border-radius:5px;
+    height: 30px;
+    border-radius: 5px;
 }
-.Austin{
+
+.Austin {
     margin-top: 20px;
 }
+
 .oneday {
-    border:solid 1px gray;
-    
-    height:50px;
+    border: solid 1px gray;
+    margin-right: 20px;
+    height: 200px;
+    border-radius: 10px;
 }
+
 .twoday {
-    border:solid 1px gray;
-    
-    height: 50px;
+    border: solid 1px gray;
+    margin-right: 20px;
+    height: 200px;
+    border-radius: 10px;
 }
+
 .future {
-    float:right;
-    
+    float: right;
 }
-h3 { margin-top: 400px;
-font-size: 40px;}
+
+h3 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
 .threeday {
-    border:solid 1px gray;
-    
-    height: 50px;
+    border: solid 1px gray;
+    margin-right: 20px;
+    height: 200px;
+    border-radius: 10px;
 }
+
 .fourday {
-    border:solid 1px gray;
-    
-    height: 50px;
+    border: solid 1px gray;
+    margin-right: 20px;
+    height: 200px;
+    border-radius: 10px;
 }
+
 .fiveday {
-    border:solid 1px gray;
-    
-    height: 50px;
+    border: solid 1px gray;
+    margin-right: 20px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.row {
+    margin: 40px;
+}
+.Temperature {
+    margin: 120px;
+}
+.humid {
+    margin:10px;
 }
